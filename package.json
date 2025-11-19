@@ -1,0 +1,20 @@
+{
+  "name": "protocoin-erc20-hardhat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx hardhat node",
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy:dev": "npx hardhat ignition deploy ignition/modules/ProtoCoin.ts --network localhost",
+    "deploy:prod": "npx hardhat ignition deploy ignition/modules/ProtoCoin.ts --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "dotenv": "^17.2.3"
+  }
+}
